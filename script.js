@@ -196,7 +196,17 @@ function anun(){
     document.getElementById("hashivO2").innerHTML = localStorage.getItem('o')+"(O) -"; 
 };
 }
+let c = 0;
+function myFuc2(){
+    c += 1 
+    if(c === 15){
+        window.location.href = "index3.html";
+        //alert("Gor Saribekyan");
+        c = 0
+    }
+    
 
+}
 
 
 /*
