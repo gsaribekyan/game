@@ -140,6 +140,9 @@ body{
         overflow: hidden; 
         white-space: nowrap;
         }
+        .xoro{ grid-area: 2 / 3 / 3 / 4; 
+        
+        }
         .hashivY { grid-area: 2 / 4 / 3 / 5; 
        /* background-color: rgb(255, 255, 255);*/
         }
