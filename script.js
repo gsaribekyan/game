@@ -6,7 +6,12 @@ let hX = 0;
 let hO = 0;
 let z = 2;   // z =+ 1
 function myFuc() {
-    //alert(z);
+    if(z % 2 === 0){
+    if(xo === "X"){
+        document.getElementById("xoro").innerHTML = "O";       
+    }else{
+        document.getElementById("xoro").innerHTML = "X";
+    }
 if(z % 2 === 0){
     let myId = event.srcElement.id;     
     if(myId === "div1"){
