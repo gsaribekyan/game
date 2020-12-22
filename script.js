@@ -6,13 +6,13 @@ let hX = 0;
 let hO = 0;
 let z = 2;   // z =+ 1
 function myFuc() {
-    if(z % 2 === 0){
+
+if(z % 2 === 0){
     if(xo === "X"){
         document.getElementById("xoro").innerHTML = "O";       
     }else{
         document.getElementById("xoro").innerHTML = "X";
     }
-if(z % 2 === 0){
     let myId = event.srcElement.id;     
     if(myId === "div1"){
         document.getElementById("d1").innerHTML = xo;
