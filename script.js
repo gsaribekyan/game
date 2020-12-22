@@ -5,17 +5,20 @@ let o ;
 let hX = 0;
 let hO = 0;
 let z = 2;   // z =+ 1
-function myFuc() {
-
+//document.getElementById("xoro").innerHTML = xo;
+function myFuc() {    
 if(z % 2 === 0){
     if(xo === "X"){
         document.getElementById("xoro").innerHTML = "O";       
     }else{
         document.getElementById("xoro").innerHTML = "X";
     }
-    let myId = event.srcElement.id;     
-    if(myId === "div1"){
-        document.getElementById("d1").innerHTML = xo;
+    
+    let myId = event.srcElement.id;  
+    
+    
+    if(myId === "div1"){       
+        document.getElementById("d1").innerHTML = xo;        
         array[0] = xo
     }
 
@@ -209,8 +212,6 @@ function myFuc2(){
         //alert("Gor Saribekyan");
         c = 0
     }
-    
-
 }
 
 
