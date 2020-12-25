@@ -250,6 +250,7 @@ function jnjel(){
     document.querySelectorAll('#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9').forEach(val => val.innerHTML = "")
     document.querySelectorAll('#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9').forEach(val => val.style.color = "black")   
     array = [,,,,,,,,];
+    x1 = 0, x2 = 0, x3 = 0, x4 = 0, x5 = 0, x6 = 0, x7 = 0, x8 = 0, x9 = 0
     if(z % 2 !== 0){
         z += 1   
     }
