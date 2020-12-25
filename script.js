@@ -5,69 +5,135 @@ let o ;
 let hX = 0;
 let hO = 0;
 let z = 2;   // z =+ 1
-//document.getElementById("xoro").innerHTML = xo;
+let x1 = 0, x2 = 0, x3 = 0, x4 = 0, x5 = 0, x6 = 0, x7 = 0, x8 = 0, x9 = 0 ;
 function myFuc() {    
 if(z % 2 === 0){
-    if(xo === "X"){
-        document.getElementById("xoro").innerHTML = "O";       
-    }else{
-        document.getElementById("xoro").innerHTML = "X";
-    }
-    
-    let myId = event.srcElement.id;  
-    
-    
-    if(myId === "div1"){       
-        document.getElementById("d1").innerHTML = xo;        
-        array[0] = xo
+    let myId = event.srcElement.id;     
+    if(myId === "div1"){
+        if(x1 === 0){               
+            document.getElementById("d1").innerHTML = xo;        
+            array[0] = xo
+            x1 += 1
+           
+            if(xo === "X"){
+                xo = "O"
+            }else{
+                xo = "X";
+            } 
+            document.getElementById("xoro").innerHTML = xo;
+        }
     }
 
     if(myId === "div2"){
-        document.getElementById("d2").innerHTML = xo;
-        array[1] = xo
+        if(x2 === 0){
+            document.getElementById("d2").innerHTML = xo;
+            array[1] = xo
+            x2 += 1   
+            if(xo === "X"){
+                xo = "O"
+            }else{
+                xo = "X";
+            } 
+            document.getElementById("xoro").innerHTML = xo;                       
+        }     
     }
 
     if(myId === "div3"){
-        document.getElementById("d3").innerHTML = xo;
-        array[2] = xo
+        if(x3 === 0){
+            document.getElementById("d3").innerHTML = xo;
+            array[2] = xo
+            x3 += 1   
+            if(xo === "X"){
+                xo = "O"
+            }else{
+                xo = "X";
+            } 
+            document.getElementById("xoro").innerHTML = xo;                       
+        }     
     }
 
     if(myId === "div4"){
-        document.getElementById("d4").innerHTML = xo;
-        array[3] = xo
+        if(x4 === 0){
+            document.getElementById("d4").innerHTML = xo;
+            array[3] = xo
+            x4 += 1   
+            if(xo === "X"){
+                xo = "O"
+            }else{
+                xo = "X";
+            } 
+            document.getElementById("xoro").innerHTML = xo;                       
+        }     
     }
 
     if(myId === "div5"){
-        document.getElementById("d5").innerHTML = xo;
-        array[4] = xo
+        if(x5 === 0){
+            document.getElementById("d5").innerHTML = xo;
+            array[4] = xo
+            x5 += 1   
+            if(xo === "X"){
+                xo = "O"
+            }else{
+                xo = "X";
+            } 
+            document.getElementById("xoro").innerHTML = xo;                       
+        }     
     }
-
+    
     if(myId === "div6"){
-        document.getElementById("d6").innerHTML = xo;
-        array[5] = xo
+        if(x6 === 0){
+            document.getElementById("d6").innerHTML = xo;
+            array[5] = xo
+            x6 += 1   
+            if(xo === "X"){
+                xo = "O"
+            }else{
+                xo = "X";
+            } 
+            document.getElementById("xoro").innerHTML = xo;                       
+        }     
     }
-
+    
     if(myId === "div7"){
-        document.getElementById("d7").innerHTML = xo;
-        array[6] = xo
-    }
+        if(x7 === 0){
+            document.getElementById("d7").innerHTML = xo;
+            array[6] = xo
+            x7 += 1   
+            if(xo === "X"){
+                xo = "O"
+            }else{
+                xo = "X";
+            } 
+            document.getElementById("xoro").innerHTML = xo;                       
+        }     
+    }    
 
     if(myId === "div8"){
-        document.getElementById("d8").innerHTML = xo;
-        array[7] = xo
+        if(x8 === 0){
+            document.getElementById("d8").innerHTML = xo;
+            array[7] = xo
+            x8 += 1   
+            if(xo === "X"){
+                xo = "O"
+            }else{
+                xo = "X";
+            } 
+            document.getElementById("xoro").innerHTML = xo;                       
+        }     
     }
-
     if(myId === "div9"){
-        document.getElementById("d9").innerHTML = xo;
-        array[8] = xo
+        if(x9 === 0){
+            document.getElementById("d9").innerHTML = xo;
+            array[8] = xo
+            x9 += 1   
+            if(xo === "X"){
+                xo = "O"
+            }else{
+                xo = "X";
+            } 
+            document.getElementById("xoro").innerHTML = xo;                       
+        }     
     }
-
-    if(xo === "X"){
-        xo = "O"
-    }else{
-        xo = "X";
-    } 
-
 //xxxxxx
 
     if((array[0] === "X") && (array[1] === "X") && (array[2] === "X")){
@@ -214,49 +280,4 @@ function myFuc2(){
     }
 }
 
-
-/*
-function myFunction() {
-    window.localStorage.clear();
-    let test = 1;      
-    test += 2
-    localStorage.setItem('test',test);   
-}
-function myFunction1(){
-    if(localStorage.getItem('test') > 2){
-    
-        window.onload=function(){
-        //alert(localStorage.getItem('test'));
-        let myobj;
-        myobj = document.getElementById("hashivX1");
-        myobj.remove();
-        myobj = document.getElementById("hashivO2");
-        myobj.remove();    
-        myobj = document.getElementById("hashivX3");
-        myobj.remove();    
-        myobj = document.getElementById("hashivO4");
-        myobj.remove();    
-        window.localStorage.clear();
-        }       
-    }
-}
-*/
-/*
-    {
-    var myobj = document.getElementsById("hashivX1");
-    myobj.remove();
-    }
-function myFuc1(){   
-    hO += 1
-    document.getElementById("hashivX3").innerHTML = hO;        
-}
-myFuc1();
-setTimeout(function(){
-document.getElementsByClassName("hashivY2").innerHTML = "bdfhdfsj";
-document.getElementsByClassName("hashivX1").innerHTML = "dfsj";    
-}, 3000);
-document.getElementById("d2").innerHTML = "New text!";
-    setTimeout(function(){alert(o); }, 3000);
-    document.getElementById("d1").innerHTML = x;
-*/
-
+/*xi es kods kardum :)*/
