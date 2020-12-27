@@ -31,7 +31,7 @@ body{
     margin: 0;
     }
     
-   
+
   
 
     #div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9{
@@ -49,12 +49,14 @@ body{
     }
     
     #btn{
-        height:50px;
-        width: 100px;
+        height:60px;
+        width: 120px;
         color: rgb(255, 255, 255);
         background-color: rgb(3, 116, 21);
-        border-radius: 5px;
+        border-radius: 45px;
         border: 1px rgb(0, 0, 0) solid;
+        font-family: 'Syne Tactile', cursive;
+        font-size: 19px;
        /* margin:0 50%;position:relative;
         margin-top: 50px;*/
         
@@ -67,7 +69,8 @@ body{
         
         color:rgb(21, 150, 75) ;
         background-color:rgb(180, 245, 164);
-        border: 4px black solid;
+        border: 3px black solid;
+       
         
          
     }
@@ -75,8 +78,8 @@ body{
         outline:none  !important;
     }
     .button{
-        height:50px;
-        width: 100px;
+        height:60px;
+        width: 120px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
@@ -143,10 +146,10 @@ body{
         .xoro{ grid-area: 2 / 3 / 3 / 4; 
         
         }
+
         .hashivY { grid-area: 2 / 4 / 3 / 5; 
        /* background-color: rgb(255, 255, 255);*/
         }
-
 
 
 
